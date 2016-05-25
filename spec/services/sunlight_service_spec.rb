@@ -12,8 +12,8 @@ describe SunlightService do
       legislator = legislators.first
 
       expect(legislators).to eq(20)
-      expect(legislator.first_name).to eq("Joni")
-      expect(legislator.last_name).to eq("Ernst")
+      expect(legislator[:first_name]).to eq("Joni")
+      expect(legislator[:last_name]).to eq("Ernst")
     end
   end
 end
