@@ -1,0 +1,3 @@
+class SunlightService
+
+end
