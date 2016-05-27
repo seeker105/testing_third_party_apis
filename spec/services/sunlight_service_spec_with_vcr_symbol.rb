@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe SunlightService do
   it "doesn't break" do
-    # expect(1+1).to eq(2)
+    expect(1+1).to eq(2)
   end
 
   it "returns a list of legislators filtered by 'gender'", :vcr do
